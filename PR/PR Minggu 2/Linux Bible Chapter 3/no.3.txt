@@ -1,0 +1,7 @@
+kanra@LittleWing:~$ which mount
+/bin/mount
+kanra@LittleWing:~$ whereis tracepath
+tracepath: /usr/bin/tracepath /usr/share/man/man8/tracepath.8.gz
+kanra@LittleWing:~$ 
+
+

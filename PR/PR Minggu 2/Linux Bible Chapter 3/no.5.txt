@@ -1,0 +1,4 @@
+kanra@LittleWing:~$ basename /usr/share/doc/
+doc
+kanra@LittleWing:~$ 
+

@@ -1,0 +1,5 @@
+kanra@LittleWing:~$ setterm -background white
+kanra@LittleWing:~$ setterm -foreground black
+kanra@LittleWing:~$ 
+
+

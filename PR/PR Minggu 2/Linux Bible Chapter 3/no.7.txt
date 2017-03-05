@@ -1,0 +1,3 @@
+kanra@LittleWing:~$ echo "Today is" $(date +"%A, %B %d, %y")
+Today is Minggu, Maret 05, 17
+

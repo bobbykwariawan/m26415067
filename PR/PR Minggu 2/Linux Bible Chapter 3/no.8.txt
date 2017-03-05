@@ -1,0 +1,10 @@
+kanra@LittleWing:~$ echo $HOSTNAME
+LittleWing
+kanra@LittleWing:~$ echo $USER
+kanra
+kanra@LittleWing:~$ echo $SHELL
+/bin/bash
+kanra@LittleWing:~$ echo $HOME
+/home/kanra
+kanra@LittleWing:~$ 
+

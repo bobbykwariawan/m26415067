@@ -1,0 +1,17 @@
+kanra@LittleWing:~$ ls
+asd      Documents  examples.desktop  Pictures  Templates
+Desktop  Downloads  Music             Public    Videos
+kanra@LittleWing:~$ cd Downloads
+kanra@LittleWing:~/Downloads$ ls
+asd
+kanra@LittleWing:~/Downloads$ rmdir asd
+kanra@LittleWing:~/Downloads$ ls
+kanra@LittleWing:~/Downloads$ mkdir kokoko
+kanra@LittleWing:~/Downloads$ ls
+kokoko
+kanra@LittleWing:~/Downloads$ cd kokoko
+kanra@LittleWing:~/Downloads/kokoko$ cd ..
+kanra@LittleWing:~/Downloads$ cd ..
+kanra@LittleWing:~$ 
+
+
