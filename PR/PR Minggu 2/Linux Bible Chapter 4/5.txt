@@ -1,0 +1,24 @@
+kanra@LittleWing:~$ ls -R $HOME/projects | less
+/home/kanra/projects:
+house1
+house2
+house3
+house4
+house5
+house6
+house7
+house8
+house9
+houses
+initscripts
+outdoors
+
+/home/kanra/projects/houses:
+bungalow.txt
+doors
+house1
+house5
+
+/home/kanra/projects/houses/doors:
+bifold.txt
+

@@ -1,0 +1,5 @@
+kanra@LittleWing:~$ mv projects/{house3,house4} $HOME/projects/houses/doors
+kanra@LittleWing:~$ ls projects/houses/doors
+bifold.txt  house3  house4
+kanra@LittleWing:~$ 
+

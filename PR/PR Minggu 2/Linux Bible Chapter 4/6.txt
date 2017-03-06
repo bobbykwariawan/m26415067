@@ -1,0 +1,5 @@
+kanra@LittleWing:~$ rm -r projects/{house6,house7,house8}
+kanra@LittleWing:~$ ls projects
+house1  house2  house3  house4  house5  house9  houses  initscripts  outdoors
+kanra@LittleWing:~$ 
+

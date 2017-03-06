@@ -1,0 +1,4 @@
+kanra@LittleWing:~$ rm -r projects/houses/doors
+kanra@LittleWing:~$ ls projects/houses
+bungalow.txt  houses1  house5
+kanra@LittleWing:~$ 

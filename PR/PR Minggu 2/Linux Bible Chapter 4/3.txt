@@ -1,0 +1,6 @@
+kanra@LittleWing:~$ cp projects/{house1,house5} $HOME/projects/houses
+kanra@LittleWing:~$ ls projects/houses
+bungalow.txt  doors  house1  house5
+kanra@LittleWing:~$ 
+
+

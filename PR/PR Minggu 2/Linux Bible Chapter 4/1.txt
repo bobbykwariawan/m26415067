@@ -1,0 +1,18 @@
+kanra@LittleWing:~$ cd $HOME
+kanra@LittleWing:~$ mkdir projects
+kanra@LittleWing:~$ cd projects
+kanra@LittleWing:~/projects$ touch house1 house2 house3 house4 house5 house6 house7 house8 house9
+kanra@LittleWing:~/projects$ ls
+house1  house2  house3  house4  house5  house6  house7  house8  house9
+kanra@LittleWing:~/projects$ ls | grep house
+house1
+house2
+house3
+house4
+house5
+house6
+house7
+house8
+house9
+kanra@LittleWing:~/projects$ 
+

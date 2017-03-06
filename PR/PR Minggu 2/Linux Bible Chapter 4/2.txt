@@ -1,0 +1,20 @@
+kanra@LittleWing:~$ mkdir projects/houses/doors
+mkdir: cannot create directory ‘projects/houses/doors’: No such file or directory
+kanra@LittleWing:~$ mkdir projects/houses
+kanra@LittleWing:~$ mkdir projects/houses/doors
+kanra@LittleWing:~$ touch projects/houses/bungalow.txt
+kanra@LittleWing:~$ touch projects/houses/doors/bifold.txt
+kanra@LittleWing:~$ mkdir projects/outdoors
+kanra@LittleWing:~$ mkdir projects/outdoors/vegetation
+kanra@LittleWing:~$ touch projects/outdoors/vegetation/landscape.txt
+kanra@LittleWing:~$ ls projects
+house1  house3  house5  house7  house9  outdoors
+house2  house4  house6  house8  houses
+kanra@LittleWing:~$ ls projects/houses
+bungalow.txt  doors
+kanra@LittleWing:~$ ls projects/houses/doors
+bifold.txt
+kanra@LittleWing:~$ ls projects/outdoors/vegetation
+landscape.txt
+kanra@LittleWing:~$ 
+

@@ -1,0 +1,12 @@
+kanra@LittleWing:~$ chmod 640 projects/house2
+kanra@LittleWing:~$ ls -l projects
+total 12
+-rw-rw-r-- 1 kanra kanra    0 Mar  7 00:24 house1
+-rw-r----- 1 kanra kanra    0 Mar  7 00:24 house2
+-rw-rw-r-- 1 kanra kanra    0 Mar  7 00:24 house5
+-rw-rw-r-- 1 kanra kanra    0 Mar  7 00:24 house9
+drwxrwxr-x 2 kanra kanra 4096 Mar  7 00:50 houses
+drwxr-xr-x 2 kanra kanra 4096 Mar  7 00:42 initscripts
+drwxrwxr-x 3 kanra kanra 4096 Mar  7 00:30 outdoors
+kanra@LittleWing:~$ 
+
