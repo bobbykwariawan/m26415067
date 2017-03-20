@@ -1,0 +1,8 @@
+kanra@bobby:~$ ps u
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+kanra     2559  0.0  0.3  29504  4020 pts/4    Ss   20:18   0:00 bash
+kanra     2580  0.0  0.3  29460  3544 pts/18   Ss   20:19   0:00 bash
+kanra     2592  0.0  0.1  49048  1392 pts/18   S+   20:19   0:01 ssh m26415067@opensource.petra.
+kanra     7284  0.0  0.3  44436  3208 pts/4    R+   23:53   0:00 ps u
+kanra@bobby:~$ ps u | less
+
