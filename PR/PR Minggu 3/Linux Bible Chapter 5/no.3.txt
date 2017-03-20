@@ -1,0 +1,59 @@
+//before
+: Network services, Internet style
+#
+# port number for both TCP and UDP; hence, officially ports have two entries
+# even if the protocol doesn't support UDP operations.
+#
+# Updated from http://www.iana.org/assignments/port-numbers and other
+# sources like http://www.freebsd.org/cgi/cvsweb.cgi/src/etc/services .
+# New ports will be added on request if they have been officially assigned
+# by IANA and used in the real-world or are needed by a debian package.
+# If you need a huge list of used numbers please install the nmap package.
+
+tcpmux          1/tcp                           # TCP port service multiplexer
+echo            7/tcp
+echo            7/udp
+discard         9/tcp           sink null
+discard         9/udp           sink null
+systat          11/tcp          users
+daytime         13/tcp
+daytime         13/udp
+netstat         15/tcp
+qotd            17/tcp          quote
+msp             18/tcp                          # message send protocol
+msp             18/udp
+chargen         19/tcp          ttytst source
+chargen         19/udp          ttytst source
+ftp-data        20/tcp
+:%s/tcp/WHATEVER
+
+----------------------------------------------------------------------------
+//after
+
+kamanda         10081/WHATEVER                  # amanda backup services (Kerberos)
+kamanda         10081/udp
+amandaidx       10082/WHATEVER                  # amanda backup services
+amidxtape       10083/WHATEVER                  # amanda backup services
+smsqp           11201/WHATEVER                  # Alamin SMS gateway
+smsqp           11201/udp
+xpilot          15345/WHATEVER                  # XPilot Contact Port
+xpilot          15345/udp
+sgi-cmsd        17001/udp               # Cluster membership services daemon
+sgi-crsd        17002/udp
+sgi-gcd         17003/udp                       # SGI Group membership daemon
+sgi-cad         17004/WHATEVER                  # Cluster Admin daemon
+isdnlog         20011/WHATEVER                  # isdn logging system
+isdnlog         20011/udp
+vboxd           20012/WHATEVER                  # voice box system
+vboxd           20012/udp
+binkp           24554/WHATEVER                  # binkp fidonet protocol
+asp             27374/WHATEVER                  # Address Search Protocol
+asp             27374/udp
+csync2          30865/WHATEVER                  # cluster synchronization tool
+dircproxy       57000/WHATEVER                  # Detachable IRC Proxy
+tfido           60177/WHATEVER                  # fidonet EMSI over telnet
+fido            60179/WHATEVER                  # fidonet EMSI over TCP
+
+# Local services# Note that it is presently the policy of IANA to assign a single well-known
+
+321 substitutions on 321 lines 
