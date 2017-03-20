@@ -1,0 +1,3 @@
+kanra@bobby:~$ nice -n +5 gedit
+kanra@bobby:~$ 
+
