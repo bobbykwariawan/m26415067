@@ -1,0 +1,10 @@
+kanra@bobby:~$ ps au --sort -user
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root      1008  1.1  5.2 317932 53568 tty7     Ss+  Mar20   2:53 /usr/lib/xorg/Xorg -core :0 -se
+root      1026  0.0  0.0  23012   972 tty1     Ss+  Mar20   0:00 /sbin/agetty --noclear tty1 lin
+kanra     2559  0.0  0.3  29504  4020 pts/4    Ss   Mar20   0:00 bash
+kanra     2580  0.0  0.3  29460  3544 pts/18   Ss   Mar20   0:00 bash
+kanra     2592  0.0  0.1  49048  1392 pts/18   S+   Mar20   0:01 ssh m26415067@opensource.petra.
+kanra     7426  0.0  0.3  44436  3320 pts/4    R+   00:22   0:00 ps au --sort -user
+kanra@bobby:~$ 
+
