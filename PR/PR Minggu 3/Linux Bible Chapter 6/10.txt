@@ -1,3 +1,5 @@
+kanra@bobby:~$ renice -n +7 7734
+7734 (process ID) old priority 5, new priority 7
 kanra@bobby:~$ ps -eo pid,comm,ni
   PID COMMAND          NI
     1 systemd           0
