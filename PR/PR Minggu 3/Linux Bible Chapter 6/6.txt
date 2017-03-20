@@ -1,0 +1,3 @@
+kanra@bobby:~$ kill -SIGSTOP 7506
+kanra@bobby:~$ 
+
