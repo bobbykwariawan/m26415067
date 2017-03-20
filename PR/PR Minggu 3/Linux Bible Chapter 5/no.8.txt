@@ -1,0 +1,11 @@
+kanra@bobby:~$ cd /tmp/FILES
+kanra@bobby:/tmp/FILES$ ls
+TakaoPGothic.ttf
+kanra@bobby:/tmp/FILES$ find /tmp/FILES -exec cp {} {}.mybackup
+find: missing argument to `-exec'
+kanra@bobby:/tmp/FILES$ find /tmp/FILES -exec cp {} {}.mybackup \;
+cp: omitting directory '/tmp/FILES'
+kanra@bobby:/tmp/FILES$ ls
+TakaoPGothic.ttf  TakaoPGothic.ttf.mybackup
+kanra@bobby:/tmp/FILES$ 
+
