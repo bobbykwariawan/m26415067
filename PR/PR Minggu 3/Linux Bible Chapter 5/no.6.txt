@@ -1,0 +1,2 @@
+kanra@bobby:~$ find /usr/share/doc -atime +300
+
