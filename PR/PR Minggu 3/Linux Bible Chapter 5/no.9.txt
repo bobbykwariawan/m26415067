@@ -1,0 +1,15 @@
+kanra@bobby:~$ grep -r "e1000" /usr/share/doc/linux-doc
+/usr/share/doc/linux-doc/html/uio-howto/uio_pci_generic.html:    echo -n 0000:00:19.0 &gt; /sys/bus/pci/drivers/e1000e/unbind
+/usr/share/doc/linux-doc/devicetree/bindings/watchdog/brcm,bcm2835-pm-wdog.txt:	reg = <0x7e100000 0x28>;
+/usr/share/doc/linux-doc/devicetree/bindings/pci/rcar-pci.txt:		ranges = <0x01000000 0 0x00000000 0 0xfe100000 0 0x00100000
+/usr/share/doc/linux-doc/networking/igbvf.txt:    http://sourceforge.net/projects/e1000
+/usr/share/doc/linux-doc/networking/igbvf.txt:to the issue to e1000-devel@lists.sf.net
+/usr/share/doc/linux-doc/networking/ixgbevf.txt:    http://sourceforge.net/projects/e1000
+/usr/share/doc/linux-doc/networking/ixgbevf.txt:to the issue to e1000-devel@lists.sf.net
+/usr/share/doc/linux-doc/networking/i40evf.txt:    http://sourceforge.net/projects/e1000
+/usr/share/doc/linux-doc/networking/i40evf.txt:to the issue to e1000-devel@lists.sf.net
+/usr/share/doc/linux-doc/networking/i40e.txt:  e1000-eedc@lists.sourceforge.net for DCB information.
+/usr/share/doc/linux-doc/networking/i40e.txt:    http://e1000.sourceforge.net
+/usr/share/doc/linux-doc/networking/i40e.txt:to the issue to e1000-devel@lists.sourceforge.net and copy
+kanra@bobby:~$ 
+
