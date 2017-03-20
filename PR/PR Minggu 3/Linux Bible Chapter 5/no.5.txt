@@ -1,0 +1,33 @@
+kanra@bobby:~$ mkdir TEST
+kanra@bobby:~$ ls
+Desktop    Downloads         Music     Public         Templates  Videos
+Documents  examples.desktop  Pictures  Shared_Folder  TEST
+kanra@bobby:~$ touch TEST/{one,two,three}
+kanra@bobby:~$ ls TEST
+one  three  two
+kanra@bobby:~$ chmod TEST/{one,two,three} 777
+chmod: invalid mode: ‘TEST/one’
+Try 'chmod --help' for more information.
+kanra@bobby:~$ cd TEST
+kanra@bobby:~/TEST$ chmod one 777
+chmod: invalid mode: ‘one’
+Try 'chmod --help' for more information.
+kanra@bobby:~/TEST$ chmod 777 one
+kanra@bobby:~/TEST$ chmod 777 two
+kanra@bobby:~/TEST$ chmod 777 three
+kanra@bobby:~/TEST$ ls -la
+total 8
+drwxrwxr-x  2 kanra kanra 4096 Mar 20 22:06 .
+drwxr-xr-x 19 kanra kanra 4096 Mar 20 22:06 ..
+-rwxrwxrwx  1 kanra kanra    0 Mar 20 22:06 one
+-rwxrwxrwx  1 kanra kanra    0 Mar 20 22:06 three
+-rwxrwxrwx  1 kanra kanra    0 Mar 20 22:06 two
+kanra@bobby:~/TEST$ cd $HOME
+kanra@bobby:~$ find $HOME -perm 777
+/home/kanra/Desktop/Shared_Folder
+/home/kanra/TEST/three
+/home/kanra/TEST/one
+/home/kanra/TEST/two
+/home/kanra/.local/share/Trash/files/Link to Shared_Folder
+kanra@bobby:~$ 
+
