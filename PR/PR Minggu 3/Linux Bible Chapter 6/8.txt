@@ -1,0 +1,63 @@
+kanra@bobby:~$ xeyes &
+[1] 7644
+kanra@bobby:~$ xeyes &
+[2] 7645
+kanra@bobby:~$ xeyes &
+[3] 7646
+kanra@bobby:~$ xeyes &
+[4] 7647
+kanra@bobby:~$ xeyes &
+[5] 7648
+kanra@bobby:~$ xeyes &
+[6] 7649
+kanra@bobby:~$ xeyes &
+[7] 7650
+kanra@bobby:~$ xeyes &
+[8] 7651
+kanra@bobby:~$ xeyes &
+[9] 7652
+kanra@bobby:~$ xeyes &
+[10] 7653
+kanra@bobby:~$ xeyes &
+[11] 7654
+kanra@bobby:~$ xeyes &
+[12] 7655
+kanra@bobby:~$ xeyes &
+[13] 7656
+kanra@bobby:~$ xeyes &
+[14] 7657
+kanra@bobby:~$ xeyes &
+[15] 7658
+kanra@bobby:~$ xeyes &
+[16] 7659
+kanra@bobby:~$ xeyes &
+[17] 7660
+kanra@bobby:~$ xeyes &
+[18] 7661
+kanra@bobby:~$ xeyes &
+[19] 7662
+kanra@bobby:~$ xeyes &
+[20] 7663
+kanra@bobby:~$ killall xeyes
+[1]   Terminated              xeyes
+[2]   Terminated              xeyes
+[3]   Terminated              xeyes
+[4]   Terminated              xeyes
+[5]   Terminated              xeyes
+[6]   Terminated              xeyes
+[7]   Terminated              xeyes
+[8]   Terminated              xeyes
+[9]   Terminated              xeyes
+[10]   Terminated              xeyes
+[11]   Terminated              xeyes
+[12]   Terminated              xeyes
+[13]   Terminated              xeyes
+[14]   Terminated              xeyes
+[15]   Terminated              xeyes
+[16]   Terminated              xeyes
+[17]   Terminated              xeyes
+[18]   Terminated              xeyes
+[19]-  Terminated              xeyes
+[20]+  Terminated              xeyes
+kanra@bobby:~$ 
+
