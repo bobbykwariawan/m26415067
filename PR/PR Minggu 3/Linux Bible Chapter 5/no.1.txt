@@ -1,0 +1,68 @@
+kanra@bobby:~$ ls
+Desktop    Downloads         Music     Public         Templates
+Documents  examples.desktop  Pictures  Shared_Folder  Videos
+kanra@bobby:~$ cp /etc/services /tmp
+kanra@bobby:~$ cd /tmp
+kanra@bobby:/tmp$ ls
+config-err-z01xuc
+services
+systemd-private-ecdab4653e2e4acdb0444a20c434bc5b-colord.service-KtP40b
+systemd-private-ecdab4653e2e4acdb0444a20c434bc5b-rtkit-daemon.service-GyjN9m
+unity_support_test.1
+kanra@bobby:/tmp$ vim services
+The program 'vim' can be found in the following packages:
+ * vim
+ * vim-gnome
+ * vim-tiny
+ * vim-athena
+ * vim-athena-py2
+ * vim-gnome-py2
+ * vim-gtk
+ * vim-gtk-py2
+ * vim-gtk3
+ * vim-gtk3-py2
+ * vim-nox
+ * vim-nox-py2
+Try: sudo apt install <selected package>
+kanra@bobby:/tmp$ sudo apt install vim
+sudo: unable to resolve host bobby
+[sudo] password for kanra: 
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following additional packages will be installed:
+  vim-runtime
+Suggested packages:
+  ctags vim-doc vim-scripts vim-gnome-py2 | vim-gtk-py2 | vim-gtk3-py2
+  | vim-athena-py2 | vim-nox-py2
+The following NEW packages will be installed:
+  vim vim-runtime
+0 upgraded, 2 newly installed, 0 to remove and 89 not upgraded.
+Need to get 6.199 kB of archives.
+After this operation, 30,0 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://id.archive.ubuntu.com/ubuntu xenial-updates/main amd64 vim-runtime all 2:7.4.1689-3ubuntu1.2 [5.164 kB]
+Get:2 http://id.archive.ubuntu.com/ubuntu xenial-updates/main amd64 vim amd64 2:7.4.1689-3ubuntu1.2 [1.036 kB]
+Fetched 6.199 kB in 2min 46s (37,3 kB/s)                                       
+Selecting previously unselected package vim-runtime.
+(Reading database ... 174194 files and directories currently installed.)
+Preparing to unpack .../vim-runtime_2%3a7.4.1689-3ubuntu1.2_all.deb ...
+Adding 'diversion of /usr/share/vim/vim74/doc/help.txt to /usr/share/vim/vim74/doc/help.txt.vim-tiny by vim-runtime'
+Adding 'diversion of /usr/share/vim/vim74/doc/tags to /usr/share/vim/vim74/doc/tags.vim-tiny by vim-runtime'
+Unpacking vim-runtime (2:7.4.1689-3ubuntu1.2) ...
+Selecting previously unselected package vim.
+Preparing to unpack .../vim_2%3a7.4.1689-3ubuntu1.2_amd64.deb ...
+Unpacking vim (2:7.4.1689-3ubuntu1.2) ...
+Processing triggers for man-db (2.7.5-1) ...
+Setting up vim-runtime (2:7.4.1689-3ubuntu1.2) ...
+Setting up vim (2:7.4.1689-3ubuntu1.2) ...
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/vim (vim) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/vimdiff (vimdiff) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/rvim (rvim) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/rview (rview) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/vi (vi) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/view (view) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/ex (ex) in auto mode
+kanra@bobby:/tmp$ vim services
+kanra@bobby:/tmp$ 
+

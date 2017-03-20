@@ -1,0 +1,61 @@
+//before
+: Network services, Internet style
+#
+# Note that it is presently the policy of IANA to assign a single well-known
+# port number for both TCP and UDP; hence, officially ports have two entries
+# even if the protocol doesn't support UDP operations.
+#
+# Updated from http://www.iana.org/assignments/port-numbers and other
+# sources like http://www.freebsd.org/cgi/cvsweb.cgi/src/etc/services .
+# New ports will be added on request if they have been officially assigned
+# by IANA and used in the real-world or are needed by a debian package.
+# If you need a huge list of used numbers please install the nmap package.
+
+tcpmux          1/tcp                           # TCP port service multiplexer
+echo            7/tcp
+echo            7/udp
+discard         9/tcp           sink null
+discard         9/udp           sink null
+systat          11/tcp          users
+daytime         13/tcp
+daytime         13/udp
+netstat         15/tcp
+qotd            17/tcp          quote
+msp             18/tcp                          # message send protocol
+msp             18/udp
+chargen         19/tcp          ttytst source
+chargen         19/udp          ttytst source
+
+
+
+---------------------------------------------------------------------------
+
+//after
+
+webmin          10000/tcp
+kamanda         10081/tcp                       # amanda backup services (Kerberos)
+kamanda         10081/udp
+amandaidx       10082/tcp                       # amanda backup services
+amidxtape       10083/tcp                       # amanda backup services
+smsqp           11201/tcp                       # Alamin SMS gateway
+smsqp           11201/udp
+xpilot          15345/tcp                       # XPilot Contact Port
+xpilot          15345/udp
+sgi-cmsd        17001/udp               # Cluster membership services daemon
+sgi-crsd        17002/udp
+sgi-gcd         17003/udp                       # SGI Group membership daemon
+sgi-cad         17004/tcp                       # Cluster Admin daemon
+isdnlog         20011/tcp                       # isdn logging system
+isdnlog         20011/udp
+vboxd           20012/tcp                       # voice box system
+vboxd           20012/udp
+binkp           24554/tcp                       # binkp fidonet protocol
+asp             27374/tcp                       # Address Search Protocol
+asp             27374/udp
+csync2          30865/tcp                       # cluster synchronization tool
+dircproxy       57000/tcp                       # Detachable IRC Proxy
+tfido           60177/tcp                       # fidonet EMSI over telnet
+fido            60179/tcp                       # fidonet EMSI over TCP
+
+# Local services# Note that it is presently the policy of IANA to assign a single well-known
+
