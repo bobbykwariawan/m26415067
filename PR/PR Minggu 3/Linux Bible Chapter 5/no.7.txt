@@ -1,0 +1,7 @@
+kanra@bobby:~$ mkdir /tmp/FILES
+kanra@bobby:~$ find /usr/share/ -size +5M -size -10M -exec cp {} /tmp/FILES/
+find: missing argument to `-exec'
+kanra@bobby:~$ find /usr/share/ -size +5M -size -10M -exec cp {} /tmp/FILES/ \;
+kanra@bobby:~$ ls /tmp/FILES/
+TakaoPGothic.ttf
+
