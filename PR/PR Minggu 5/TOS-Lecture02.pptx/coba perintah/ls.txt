@@ -1,0 +1,9 @@
+Bobby@DESKTOP-7QS35OB /
+$ ls
+ bin          Cygwin.ico               dev    lib    sbin   var
+ cygdrive    'Cygwin64 Terminal.lnk'   etc    opt    tmp
+ Cygwin.bat   Cygwin-Terminal.ico      home   proc   usr
+
+Bobby@DESKTOP-7QS35OB /
+$
+
