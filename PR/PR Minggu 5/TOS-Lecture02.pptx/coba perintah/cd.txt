@@ -1,0 +1,4 @@
+Bobby@DESKTOP-7QS35OB /
+$ cd etc
+
+Bobby@DESKTOP-7QS35OB /etc
