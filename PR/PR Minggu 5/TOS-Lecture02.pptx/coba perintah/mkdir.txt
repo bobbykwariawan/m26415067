@@ -1,0 +1,19 @@
+Bobby@DESKTOP-7QS35OB ~
+$ ls
+
+Bobby@DESKTOP-7QS35OB ~
+$ mkdir asd
+
+Bobby@DESKTOP-7QS35OB ~
+$ ls
+asd
+
+Bobby@DESKTOP-7QS35OB ~
+$ mkdir bobobo
+
+Bobby@DESKTOP-7QS35OB ~
+$ ls
+asd  bobobo
+
+Bobby@DESKTOP-7QS35OB ~
+$
