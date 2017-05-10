@@ -31,7 +31,7 @@ class Snake(QtGui.QWidget):
 
 	def keyPressEvent(self, e):
 		if not self.isPaused:
-			#print "inflection point: ", self.x, " ", self.y
+			
 			if e.key() == QtCore.Qt.Key_Up and self.lastKeyPress != 'UP' and self.lastKeyPress != 'DOWN':
 				self.direction("UP")
 				self.lastKeyPress = 'UP'
@@ -136,7 +136,6 @@ class Snake(QtGui.QWidget):
 
 		return True
 
-	#places the food when theres none on the board 
 	def placeFood(self, qp):
 		if self.FoodPlaced == False:
 			self.foodx = randrange(24)*12
@@ -146,14 +145,14 @@ class Snake(QtGui.QWidget):
 		qp.setBrush(QtGui.QColor(80, 180, 0, 160))
 		qp.drawRect(self.foodx, self.foody, 12, 12)
 
-	#draws each component of the snake
+
 	def drawSnake(self, qp):
 		qp.setPen(QtCore.Qt.NoPen)
 		qp.setBrush(QtGui.QColor(255, 80, 0, 255))
 		for i in self.snakeArray:
 			qp.drawRect(i[0], i[1], 12, 12)
 
-	#game thread
+
 	def timerEvent(self, event):
 		if event.timerId() == self.timer.timerId():
 			self.direction(self.lastKeyPress)
