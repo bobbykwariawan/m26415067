@@ -160,6 +160,7 @@ class Snake(QtGui.QWidget):
 		else:
 			QtGui.QFrame.timerEvent(self, event)
 
+			
 def main():
 	app = QtGui.QApplication(sys.argv)
 	ex = Snake()
