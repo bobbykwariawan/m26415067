@@ -1,16 +1,16 @@
 >>> import numpy as np
->>> a = np.arange(6)                         # 1d array
+>>> a = np.arange(6)                        
 >>> print(a)
 [0 1 2 3 4 5]
 >>>
->>> b = np.arange(12).reshape(4,3)           # 2d array
+>>> b = np.arange(12).reshape(4,3)           
 >>> print(b)
 [[ 0  1  2]
  [ 3  4  5]
  [ 6  7  8]
  [ 9 10 11]]
 >>>
->>> c = np.arange(24).reshape(2,3,4)         # 3d array
+>>> c = np.arange(24).reshape(2,3,4)         
 >>> print(c)
 [[[ 0  1  2  3]
   [ 4  5  6  7]
